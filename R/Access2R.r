@@ -175,8 +175,8 @@ str(studentNew)
 #################
 # Using sqldf to merge three tables
 
-install.packages("sqldf")  # To install - Run once only
-library(sqldf)             # To load - Run each new R session
+install.packages("sqldf")  # To install � Run once only
+library(sqldf)             # To load � Run each new R session
 
 studentNew = sqldf("SELECT * FROM
       student LEFT OUTER JOIN
